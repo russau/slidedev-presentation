@@ -1,5 +1,5 @@
 ---
-theme: default
+theme: dracula
 title: Presentation
 info: |
   Russell Sayers
@@ -36,28 +36,26 @@ Let's Automate
  - CKA: Certified Kubernetes Administrator
 
 ---
+layout: center
+---
 
 # Publishing Content to an LMS
 
-![](/arch_white.jpg)
+Proposed Architecture
 
----
-
-# Who / Roles?
-
- - 🧑 Instructors
- - 👩 Curriculum Developers
- - 🧑 Localization
- - 👩 Training Operations
- - 👩 Business Development
-
+![](/arch_vector.svg)
 
 ---
 
 # Continuous Integration
 
  - 💾 Source control (Github)
+   - Stores manifest / labs code
+   - Changes automatically trigger a build
  - ⚙️ Automated Build (Github actions)
+   - Automation runs here
+   - Automated sanity checks
+   - Communication to LMS APIs
 
 ---
 
@@ -76,7 +74,23 @@ languages:
 
 ---
 
-# Catalog
+# Catalog - Who / Roles?
+
+ - 🧑 Instructors
+   - What version am I teaching / ramping?
+ - 👩 Curriculum Developers
+   - Search index to find content
+ - 🧑 Localization
+   - Finding updates to English courses
+ - 👩 Training Operations
+   - What versions are active?
+   - Deprecating versions
+ - 👩 Business Development
+   - What versions are upcoming?
+
+---
+
+# Demo
 
 https://catalog.beta-seattle.net 
 
