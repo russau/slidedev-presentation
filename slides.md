@@ -1,6 +1,6 @@
 ---
-theme: dracula
-title: Databricks Presentation
+theme: default
+title: Presentation
 info: |
   Russell Sayers
 transition: slide-left
@@ -39,7 +39,7 @@ Let's Automate
 
 # Publishing Content to an LMS
 
-
+![](/arch_white.jpg)
 
 ---
 
@@ -76,8 +76,10 @@ languages:
 
 ---
 
-# Catelog
+# Catalog
 
-![](/catelog.png)
+https://catalog.beta-seattle.net 
+
+![](/catalog.png)
 
 ---
